@@ -1,0 +1,17 @@
+name: my frist workflow
+
+on: push 
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: welcome message
+          run: eho "my first git actions"
+
+        - name: list files
+          run: ls
+          
+        - name: read file
+          run: cat README.md
+          
