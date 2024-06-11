@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: welcome message
-          run: eho "my first git actions"
+          run: echo "my first git actions"
 
         - name: list files
           run: ls
