@@ -10,7 +10,7 @@ jobs:
           uses: actions/checkout@v4
         - name: install cowsay program
           run: sudo apt-get install cowsay -y
-        - name: execute cowsay CMD
+        - name: execute Cowsay CMD
           run: cowsay -f dragon "run for your life" >> dragon.txt
 
         - name: test file exicts
